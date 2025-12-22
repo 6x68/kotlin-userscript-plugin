@@ -24,12 +24,9 @@ gradlePlugin {
             displayName = "Kotlin Userscript"
             description = "Allows creating browser userscripts in Kotlin/JS."
             implementationClass = "it.krzeminski.gradleplugins.kotlinuserscript.KotlinUserscriptPlugin"
+            tags = listOf("kotlin", "userscript", "tampermonkey", "greasemonkey")
         }
     }
-}
-
-pluginBundle {
-    website = "https://github.com/krzema12/gradle-kotlin-userscript-plugin"
-    vcsUrl = "https://github.com/krzema12/gradle-kotlin-userscript-plugin.git"
-    tags = listOf("kotlin", "userscript", "tampermonkey", "greasemonkey")
+    website = "https://github.com/6x68/kotlin-userscript-plugin"
+    vcsUrl = "https://github.com/6x68/kotlin-userscript-plugin.git"
 }
