@@ -9,7 +9,7 @@ class KotlinUserscriptPluginTest {
     fun pluginRegistersATask() {
         // Create a test project and apply the plugin
         val project = ProjectBuilder.builder().build()
-        project.plugins.apply("dev.datamodel.userscript.kotlinuserscript")
+        project.plugins.apply("dev.datamodel.userscript")
 
         // Verify the result
         Assert.assertNotNull(project.tasks.findByName("generateUserscript"))
