@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-group = "com.github.6x68"
+group = "dev.datamodel"
 version = "0.1.0"
 
 dependencies {
@@ -20,7 +20,7 @@ dependencies {
 gradlePlugin {
     plugins {
         register("kotlin-userscript-plugin") {
-            id = "dev.datamodel.userscript"
+            id = "com.github.6x68.kotlin-userscript-plugin"
             displayName = "Kotlin Userscript"
             description = "Allows creating browser userscripts in Kotlin/JS."
             implementationClass = "dev.datamodel.userscript.KotlinUserscriptPlugin"
