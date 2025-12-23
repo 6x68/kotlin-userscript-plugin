@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-group = "dev.datamodel"
+group = "com.github.6x68"
 version = "0.1.0"
 
 dependencies {
