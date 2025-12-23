@@ -9,8 +9,8 @@ repositories {
     mavenCentral()
 }
 
-group = "it.krzeminski"
-version = "0.3.0"
+group = "dev.datamodel"
+version = "0.1.0"
 
 dependencies {
     // Use JUnit test framework for unit tests
@@ -20,10 +20,10 @@ dependencies {
 gradlePlugin {
     plugins {
         register("kotlin-userscript-plugin") {
-            id = "it.krzeminski.kotlin-userscript"
+            id = "dev.datamodel.userscript"
             displayName = "Kotlin Userscript"
             description = "Allows creating browser userscripts in Kotlin/JS."
-            implementationClass = "it.krzeminski.gradleplugins.kotlinuserscript.KotlinUserscriptPlugin"
+            implementationClass = "dev.datamodel.userscript.KotlinUserscriptPlugin"
             tags = listOf("kotlin", "userscript", "tampermonkey", "greasemonkey")
         }
     }

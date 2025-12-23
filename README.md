@@ -9,15 +9,15 @@ See [an example repo](https://github.com/krzema12/kotlin-userscript-template) or
 
 In your `build.gradle.kts`, add this plugin:
 
-```
+```kt
 plugins {
-    id("it.krzeminski.kotlin-userscript") version "0.3.0"
+    id("dev.datamodel.userscript") version "0.1.0"
 }
 ```
 
 Use Gradle DSL to configure the generated userscript, for example:
 
-```
+```kt
 userscript {
     name = "Kotlin userscript test"
     match("https://www.example.com/*", "http://*.example.com/*")

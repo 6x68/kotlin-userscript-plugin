@@ -1,4 +1,4 @@
-package it.krzeminski.gradleplugins.kotlinuserscript
+package dev.datamodel.userscript
 
 import org.gradle.testfixtures.ProjectBuilder
 import org.junit.Assert
@@ -9,7 +9,7 @@ class KotlinUserscriptPluginTest {
     fun pluginRegistersATask() {
         // Create a test project and apply the plugin
         val project = ProjectBuilder.builder().build()
-        project.plugins.apply("it.krzeminski.kotlin-userscript")
+        project.plugins.apply("dev.datamodel.userscript.kotlinuserscript")
 
         // Verify the result
         Assert.assertNotNull(project.tasks.findByName("generateUserscript"))
