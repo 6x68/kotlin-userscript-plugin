@@ -30,7 +30,7 @@ class KotlinUserscriptPlugin : Plugin<Project> {
                 dependsOn("jsBrowserDistribution")
                 doLast {
                     println("Generating a userscript...")
-                    val defaultInputFilePath = "build/distributions/${project.name}.js"
+                    val defaultInputFilePath = "build/dist/productionExecutable/${project.name}.js"
                     val defaultOutputFilePath = "build/userscript/${project.name}.user.js"
 
                     val userscriptPreamble = """
