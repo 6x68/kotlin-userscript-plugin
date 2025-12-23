@@ -1,4 +1,4 @@
-package dev.datamodel.userscript.kotlinuserscript
+package dev.datamodel.userscript
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
