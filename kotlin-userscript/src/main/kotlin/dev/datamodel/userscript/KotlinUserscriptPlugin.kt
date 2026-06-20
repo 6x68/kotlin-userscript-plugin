@@ -1,4 +1,4 @@
-package dev.datamodel.userscript
+package dev.seized.userscript
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

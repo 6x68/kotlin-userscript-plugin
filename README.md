@@ -11,7 +11,7 @@ In your `build.gradle.kts`, add this plugin:
 
 ```kt
 plugins {
-    id("dev.datamodel.userscript") version "0.1.0"
+    id("dev.seized.userscript") version "0.1.0"
 }
 ```
 

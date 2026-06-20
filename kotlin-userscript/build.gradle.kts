@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-group = "dev.datamodel"
+group = "dev.seized"
 version = "0.1.0"
 
 dependencies {
@@ -23,7 +23,7 @@ gradlePlugin {
             id = "com.github.6x68.kotlin-userscript-plugin"
             displayName = "Kotlin Userscript"
             description = "Allows creating browser userscripts in Kotlin/JS."
-            implementationClass = "dev.datamodel.userscript.KotlinUserscriptPlugin"
+            implementationClass = "dev.seized.userscript.KotlinUserscriptPlugin"
             tags = listOf("kotlin", "userscript", "tampermonkey", "greasemonkey")
         }
     }
